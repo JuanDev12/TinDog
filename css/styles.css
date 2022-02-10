@@ -54,6 +54,32 @@ h1 {
     width: 60%;
 }
 
+.features-card {
+    text-align: center;
+    margin: 10% auto;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.feature-desc {
+    color: #8f8f8f;
+}
+
+.feature-icon {
+    color: #ef8172;
+    font-size: 3rem;  
+    padding-bottom: 1rem; 
+    
+    transition: all .2s ease-in;
+}
+
+.feature-icon:hover {
+    color: #ff4c68;
+}
+
 /* Id */
 
 #title {
