@@ -12,7 +12,6 @@ h1 {
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
     font-weight: bold;
     line-height: 1.5;
@@ -48,7 +47,6 @@ h2 {
 
 .nav-link {
     font-size: 1.2rem;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
 
@@ -114,7 +112,6 @@ h2 {
 
 .cta-title {
     font-size: 3rem;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     color: white;
     padding: 10% 10% 0;
@@ -172,7 +169,13 @@ h2 {
     text-align: center;
 }
 
+/* Media queries */
+
 @media (max-width: 991px) {
+    #title {
+        text-align: center;
+    }
+    
     .title-img {
         transform: rotate(0);
         position: static;
@@ -181,21 +184,19 @@ h2 {
         transition: all 1s ease;
     }
 
-    #title {
-        text-align: center;
-    }
 }
 
 @media (max-width: 1092px) and (min-width: 992px) {
+    h1 {
+        font-size: 3rem;
+
+        transition: all 1s ease;
+    }
+
     .title-img {
         transform: rotate(0);
         margin: 0 auto;
         transition: all 1s ease;
     }
 
-    h1 {
-        font-size: 3rem;
-
-        transition: all 1s ease;
-    }
 }
